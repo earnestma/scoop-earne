@@ -22,13 +22,8 @@
 
 ### Table of Contents
 
-- [Introduction](#introduction)
 - [Apps List](#apps-list)
 - [Contribute](#contribute)
-
-# Introduction
-
-TODO
 
 # Apps List
 
@@ -36,13 +31,13 @@ TODO
 | ---                                   | ---      | ---    |
 | [hledger](https://hledger.org/) *hledger*     | GPL-3.0    |        |
 | [ledger](https://www.ledger-cli.org/) ([Binaries](https://github.com/FullofQuarks/Windows-Ledger-Binaries)) *ledger* | BSD-3-Clause | |
-| [ledgerble](https://github.com/sbridges/ledgerble)    | Apache-2.0  | |
-| [yadm](https://github.com/TheLocehiliosan/yadm)    | GPL-3.0    |  |
+| [ledgerble](https://github.com/sbridges/ledgerble) *ledgerble*    | Apache-2.0  | |
+| [yadm](https://github.com/TheLocehiliosan/yadm) *yadm*   | GPL-3.0    |  |
 
 # Contribute
 
-TODO
-
+![GitHub contributors](https://img.shields.io/github/contributors/earnestma/scoop-earne?style=flat-square)
 ![AppVeyor tests (compact)](https://img.shields.io/appveyor/tests/earnestma/scoop-earne?compact_message&style=flat-square)
 
+Contributions are welcome as patches or PRs on Github.
 
