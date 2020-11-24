@@ -36,6 +36,7 @@ TODO
 | ---                                   | ---      | ---    |
 | [hledger](https://hledger.org/) *hledger*     | GPL-3.0    |        |
 | [ledger](https://www.ledger-cli.org/) ([Binaries](https://github.com/FullofQuarks/Windows-Ledger-Binaries)) *ledger* | BSD-3-Clause | |
+| [ledgerble](https://github.com/sbridges/ledgerble)    | Apache-2.0  | |
 
 # Contribute
 
