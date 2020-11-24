@@ -29,6 +29,8 @@
 
 | Program Name *(manifest name)*        | License  | Status |
 | ---                                   | ---      | ---    |
+| [Alacritty (Release Candidates)](https://github.com/alacritty/alacritty) *alacritty-rc* | Apache-2.0 | |
+| [Extraterm (Nightly)](https://github.com/sedwards2009/extraterm) *extraterm-nightly* | MIT | |
 | [hledger](https://hledger.org/) *hledger*     | GPL-3.0    |        |
 | [ledger](https://www.ledger-cli.org/) ([Binaries](https://github.com/FullofQuarks/Windows-Ledger-Binaries)) *ledger* | BSD-3-Clause | |
 | [ledgerble](https://github.com/sbridges/ledgerble) *ledgerble*    | Apache-2.0  | |
