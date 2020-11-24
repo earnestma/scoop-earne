@@ -32,9 +32,9 @@ TODO
 
 # Apps List
 
-| Program Name *(manifest name)*          | Status |
-| ---                                     | ---    |
-|                                         |        |
+| Program Name *(manifest name)*        | License  | Status |
+| ---                                   | ---      | ---    |
+| [hledger](https://hledger.org/) *hledger*     | GPL-3.0    |        |
 
 # Contribute
 
