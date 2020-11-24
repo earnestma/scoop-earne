@@ -6,11 +6,16 @@
     "architecture": {
         "64bit": {
             "url": "https://storage.googleapis.com/extraterm_builds/2020-11-22%2005:01:37/extraterm-0.55.2-1-g3401dc0b-darwin-x64.zip",
-            "hash": "d4e0216f3e4841e422d352231c3de25e6d6d027fb62415181a1f579169b06c08",
+            "hash": "77c3b9be8fe6178a385b24380af8c52eded606b98ee6ab1990fb02bd15bed1dd",
             "extract_dir": "extraterm-0.55.2-1-g3401dc0b-win32-x64"
         }
     },
-    "bin": [ [ "extraterm.exe", "extraterm-nightly" ] ],
+    "bin": [
+        [
+            "extraterm.exe",
+            "extraterm-nightly"
+        ]
+    ],
     "shortcuts": [
         [
             "extraterm.exe",
