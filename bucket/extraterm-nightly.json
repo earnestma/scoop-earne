@@ -5,12 +5,17 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://storage.googleapis.com/extraterm_builds/2020-11-22%2005:01:37/extraterm-0.55.2-1-g3401dc0b-darwin-x64.zip",
+            "url": "https://storage.googleapis.com/extraterm_builds/2020-11-22%2005:01:37/extraterm-0.55.2-1-g3401dc0b-win32-x64.zip",
             "hash": "d4e0216f3e4841e422d352231c3de25e6d6d027fb62415181a1f579169b06c08",
             "extract_dir": "extraterm-0.55.2-1-g3401dc0b-win32-x64"
         }
     },
-    "bin": [ [ "extraterm.exe", "extraterm-nightly" ] ],
+    "bin": [
+        [
+            "extraterm.exe",
+            "extraterm-nightly"
+        ]
+    ],
     "shortcuts": [
         [
             "extraterm.exe",
