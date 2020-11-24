@@ -35,6 +35,7 @@ TODO
 | Program Name *(manifest name)*        | License  | Status |
 | ---                                   | ---      | ---    |
 | [hledger](https://hledger.org/) *hledger*     | GPL-3.0    |        |
+| [ledger](https://www.ledger-cli.org/) ([Binaries](https://github.com/FullofQuarks/Windows-Ledger-Binaries)) *ledger* | BSD-3-Clause | |
 
 # Contribute
 
