@@ -1,16 +1,17 @@
-on:
-  schedule:
-  - cron: '0 * * * *'
-name: Excavator
-jobs:
-  excavate:
-    name: Excavator
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@main
-    - name: Excavate
-      uses: Ash258/Scoop-GithubActions@stable
-      env:
-        GITH_EMAIL: youremail@email.com
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SKIP_UPDATED: '1'
+# I will look into this more later.
+#on:
+#  schedule:
+#  - cron: '*/30 * * * *'
+#name: Excavator
+#obs:
+#  excavate:
+#    name: Excavator
+#    runs-on: windows-latest
+#    steps:
+#    - uses: actions/checkout@main
+#    - name: Excavator
+#      uses: Ash258/Scoop-GithubActions@stable-win
+#      env:
+#        GITH_EMAIL: earnestma@hotmail.com
+#        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#        SKIP_UPDATED: '1'

@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@main
-    - name: Pull Request Validation
-      uses: Ash258/Scoop-GithubActions@stable
+    - name: Pull Request Validator
+      uses: Ash258/Scoop-GithubActions@stable-win
       env:
-        GITH_EMAIL: youremail@email.com
+        GITH_EMAIL: earnestma@hotmail.com
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

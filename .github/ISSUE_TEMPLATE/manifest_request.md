@@ -5,14 +5,14 @@ title: '[Request] Add %%applicationName%%'
 labels: request, help wanted
 ---
 
-<!-- Adjust prefilled title with correct name of application -->
-<!-- Please provide following information: -->
+Please keep in mind that this is my personal bucket and I likely will not add things I don't use. Please fill out the title and include relevant information below!
+
 - **URL to application**: <>
 - **Latest version**:
 - **Graphical interface**: Yes/No
-- **Portable version**: Yes/No <!-- if Yes please specify if portable mode needs to be enabled and list files/folders needed to be handled on update -->
+- **Portable version**: Yes/No *(if yes, please specify if portable mode needs to be enabled and list files/folders needed to be handled on update)*
 
-<!-- Is there anything else contributors need to know? -->
-<!-- Files, folders to persist across updates -->
-<!-- Installation requirements -->
-<!-- ... -->
+Is there anything else contributors need to know?
+
+- Files, folders to persist across updates
+- Installation requirements
