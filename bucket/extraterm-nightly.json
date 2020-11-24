@@ -1,0 +1,21 @@
+{
+    "version": "0.55.2-1-g3401dc0b",
+    "description": "Nightly builds for the swiss army chainsaw of terminal emulators",
+    "homepage": "https://extraterm.org",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://storage.googleapis.com/extraterm_builds/2020-11-22%2005:01:37/extraterm-0.55.2-1-g3401dc0b-darwin-x64.zip",
+            "hash": "d4e0216f3e4841e422d352231c3de25e6d6d027fb62415181a1f579169b06c08",
+            "extract_dir": "extraterm-0.55.2-1-g3401dc0b-win32-x64"
+        }
+    },
+    "bin": [ [ "extraterm.exe", "extraterm-nightly" ] ],
+    "shortcuts": [
+        [
+            "extraterm.exe",
+            "Extraterm Nightly"
+        ]
+    ],
+    "notes": "For regular releases use the main extras bucket"
+}
