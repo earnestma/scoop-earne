@@ -1,0 +1,35 @@
+{
+    "version": "1.1.0.dev-nightly.20201130",
+    "description": "Nightly dev releases of xournalpp, a handwriting notetaking software with PDF annotation support",
+    "homepage": "https://github.com/xournalpp/xournalpp",
+    "license": "GPL-2.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-1.1.0.dev-nightly.20201130-windows.zip",
+            "hash": "89dc285b8a77182a2c372188028a81c961eb778bf17b452f40974c2d189262a6"
+        }
+    },
+    "pre_install": [
+        "Expand-7zipArchive \"$dir\\xournalpp-$version-windows.exe\" -Removal",
+        "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse"
+    ],
+    "bin": [ [ "bin\\xournalpp.exe", "xournalpp-nightly" ] ],
+    "shortcuts": [
+        [
+            "bin\\xournalpp.exe",
+            "Xournal++ Nightly"
+        ]
+    ],
+    "notes": "Latest available dev nightly build. For regular releases use xournalpp from the main extras bucket",
+    "checkver": {
+        "url": "https://github.com/xournalpp/xournalpp/releases/tag/nightly",
+        "regex": "v\\d\\.\\d.\\d\\.dev-nightly\\.\\d\\d\\d\\d\\d\\d\\d\\d-windows\\.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-$version-windows.zip"
+            }
+        }
+    }
+}
