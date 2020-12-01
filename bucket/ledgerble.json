@@ -17,9 +17,7 @@
             ]
         }
     },
-    "checkver": {
-        "github": "https://github.com/sbridges/ledgerble"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
