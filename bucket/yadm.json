@@ -5,6 +5,7 @@
     "homepage": "https://yadm.io/",
     "license": "GPL-3.0",
     "url": "https://github.com/TheLocehiliosan/yadm/archive/2.5.0.zip",
+    "extract_dir": "yadm-2.5.0",
     "hash": "4c3e3365e5fe7431adff103550f202f0ed62fceb1703a6d36803e4e2067abd2a",
     "bin": "yadm",
     "notes": "You probably need a compatible shell, e.g. Git Bash for Windows to run this. Configuration is stored in %HOME%/.config/yadm.",
