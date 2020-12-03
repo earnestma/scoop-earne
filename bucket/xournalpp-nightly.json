@@ -13,10 +13,10 @@
         "Expand-7zipArchive \"$dir\\xournalpp-$version-windows.exe\" -Removal",
         "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse"
     ],
-    "bin": [ [ "bin\\xournalpp.exe", "xournalpp-nightly" ] ],
+    "bin": [ [ "xournalpp-1.1.0+dev-nightly.20201203-windows.exe", "xournalpp-nightly" ] ],
     "shortcuts": [
         [
-            "bin\\xournalpp.exe",
+            "xournalpp-1.1.0+dev-nightly.20201203-windows.exe",
             "Xournal++ Nightly"
         ]
     ],
