@@ -1,5 +1,5 @@
 {
-    "##": "yadm configuration is stored in %HOME%/.config/yadm",
+    "##": "This doesn't work at all ///////////yadm configuration is stored in %HOME%/.config/yadm",
     "version": "2.5.0",
     "description": "Yet another dotfiles manager",
     "homepage": "https://yadm.io/",
