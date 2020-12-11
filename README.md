@@ -35,6 +35,7 @@
 | [hledger](https://hledger.org/) *hledger*     | GPL-3.0    |        |
 | [ledger](https://www.ledger-cli.org/) ([Binaries](https://github.com/FullofQuarks/Windows-Ledger-Binaries)) *ledger* | BSD-3-Clause | |
 | [ledgerble](https://github.com/sbridges/ledgerble) *ledgerble*    | Apache-2.0  | |
+| [Liquidsoap](https://www.liquidsoap.info/) *liquidsoap* | GPL-2.0 | |
 | [TiddlyDesktop](https://github.com/Jermolene/TiddlyDesktop) *tiddlydesktop* | UNKNOWN | |
 | [Xournal++ (Nightly Dev Releases)](https://github.com/xournalpp/xournalpp) *xournalpp-nightly* | GPL-2.0-or-later |   |
 | [yadm](https://github.com/TheLocehiliosan/yadm) *yadm*   | GPL-3.0    |  |
