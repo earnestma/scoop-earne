@@ -21,7 +21,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/sbridges/ledgerble/releases/download/v$version/ledgerble-win-$version.zip"
+                "url": "https://github.com/sbridges/ledgerble/releases/download/v$version/ledgerble-win-$version.zip",
+                "extract_dir": "dist\\ledgerble-win32-x64"
             }
         }
     }
