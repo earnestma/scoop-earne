@@ -1,13 +1,13 @@
 {
-    "version": "0.55.2-47-gf76f5a8f",
+    "version": "0.55.2-49-g79f88411",
     "description": "Nightly builds for the swiss army chainsaw of terminal emulators",
     "homepage": "https://extraterm.org",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://storage.googleapis.com/extraterm_builds/2020-12-15%2005:01:54/extraterm-0.55.2-47-gf76f5a8f-win32-x64.zip",
-            "hash": "f959f8dba6f8980b558c65bfdb981fe00f018a147a8d50182211d93e9f97136a",
-            "extract_dir": "extraterm-0.55.2-47-gf76f5a8f-win32-x64"
+            "url": "https://storage.googleapis.com/extraterm_builds/2020-12-16%2005:02:33/extraterm-0.55.2-49-g79f88411-win32-x64.zip",
+            "hash": "b9d5aaa4d4d0f3d6e75ec83118f4b19be1505d2c18d9dfd96be36bc7cb73ad19",
+            "extract_dir": "extraterm-0.55.2-49-g79f88411-win32-x64"
         }
     },
     "bin": [
@@ -24,4 +24,3 @@
     ],
     "notes": "For regular releases use the main extras bucket"
 }
-
