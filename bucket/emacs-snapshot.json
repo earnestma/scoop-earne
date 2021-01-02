@@ -1,0 +1,36 @@
+{
+    "version": "28.0.50-2020-07-05",
+    "description": "Development snapshots for Emacs, an extensible, customizable, free/libre text editor",
+    "homepage": "https://www.gnu.org/software/emacs/",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://alpha.gnu.org/gnu/emacs/pretest/windows/emacs-28/emacs-28.0.50-snapshot-2020-07-05-x86_64.zip",
+            "hash": "727cc9ce6c29d2b8e2b2e33d1b7176855e7b3dc70d4f92ba314567748bc6d5b6"
+        },
+        "32bit": {
+            "url": "https://alpha.gnu.org/gnu/emacs/pretest/windows/emacs-28/emacs-28.0.50-snapshot-2020-07-05-i686.zip",
+            "hash": "d4f20f6d2cd9366867bc313088425410fc5ef9d3f511c67f37f0680f516a930b"
+        }
+    },
+    "bin": [
+        "bin\\emacs.exe",
+        "bin\\emacsclient.exe",
+        "bin\\emacsclientw.exe",
+        "bin\\runemacs.exe",
+        "bin\\etags.exe",
+        "bin\\ctags.exe"
+    ],
+    "shortcuts": [
+        [
+            "bin\\runemacs.exe",
+            "Emacs"
+        ],
+        [
+            "bin\\emacsclientw.exe",
+            "Emacs Client",
+            "-c -n -a \"\""
+        ]
+    ],
+    "notes": "Development snapshots that may not be updated. Use emacs-stable in this bucket or emacs from extras bucket."
+}
