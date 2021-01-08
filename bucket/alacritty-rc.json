@@ -1,14 +1,14 @@
 {
-    "version": "0.7.0-rc2",
+    "version": "0.7.1-rc1",
     "description": "GPU-accelerated terminal emulator - release candidates only",
     "homepage": "https://github.com/alacritty/alacritty",
     "license": "Apache-2.0",
-    "url": "https://github.com/alacritty/alacritty/releases/download/v0.7.0-rc1/Alacritty-v0.7.0-rc2-portable.exe",
-    "hash": "8b85d538bdb12afb72fe553b11301cbf2d52b321acd0bada9c1522684b3832e9",
-    "bin": [ [ "Alacritty-v0.7.0-rc2-portable.exe", "alacritty-rc" ] ],
+    "url": "https://github.com/alacritty/alacritty/releases/download/v0.7.1-rc1/Alacritty-v0.7.1-rc1-portable.exe",
+    "hash": "b03bda9751ea80a073515eee05d2c6734d0ceaf05f9b95852b526b52f92609c6",
+    "bin": [ [ "Alacritty-v0.7.1-rc1-portable.exe", "alacritty-rc" ] ],
     "shortcuts": [
         [
-            "Alacritty-v0.7.0-rc2-portable.exe",
+            "Alacritty-v0.7.1-rc1-portable.exe",
             "Alacritty Release Candidate"
         ]
     ],
