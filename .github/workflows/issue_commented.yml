@@ -12,5 +12,5 @@ jobs:
       uses: Ash258/Scoop-GithubActions@stable-win
       if: startsWith(github.event.comment.body, '/verify')
       env:
-        GITH_EMAIL: earnestma@hotmail.com
+        GITH_EMAIL: me@earne.link
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
