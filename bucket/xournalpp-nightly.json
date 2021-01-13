@@ -1,35 +1,24 @@
 {
-    "version": "1.1.0.dev-nightly.20210112",
+    "version": "1.1.0.dev-nightly.20210113",
     "description": "Nightly dev releases of xournalpp, a handwriting notetaking software with PDF annotation support",
     "homepage": "https://github.com/xournalpp/xournalpp",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-1.1.0.dev-nightly.20210112-windows.zip",
-            "hash": "69217bcf2ea502272ea2279bb9f3e0bb5924ae0a96faebef6a762e2f60cda188"
+            "url": "https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-1.1.0.dev-nightly.20210113-windows.zip",
+            "hash": "92ad561951cb314df8efbad66d28be9db481210ca9f9abb0e0587e812f32282b"
         }
     },
     "pre_install": [
         "Expand-7zipArchive \"$dir\\xournalpp-$version-windows.exe\" -Removal",
         "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse"
     ],
-    "bin": [ [ "xournalpp-1.1.0+dev-nightly.20210112-windows.exe", "xournalpp-nightly" ] ],
+    "bin": [ [ "xournalpp-1.1.0+dev-nightly.20210113-windows.exe", "xournalpp-nightly" ] ],
     "shortcuts": [
         [
-            "xournalpp-1.1.0+dev-nightly.20210112-windows.exe",
+            "xournalpp-1.1.0+dev-nightly.20210113-windows.exe",
             "Xournal++ Nightly"
         ]
     ],
-    "notes": "Latest available dev nightly build. For regular releases use xournalpp from the main extras bucket",
-    "checkver": {
-        "url": "https://github.com/xournalpp/xournalpp/releases/tag/nightly",
-        "regex": "v\\d\\.\\d.\\d\\.dev-nightly\\.\\d\\d\\d\\d\\d\\d\\d\\d-windows\\.zip"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-$version-windows.zip"
-            }
-        }
-    }
+    "notes": "Latest available dev nightly build. For regular releases use xournalpp from the main extras bucket"
 }
