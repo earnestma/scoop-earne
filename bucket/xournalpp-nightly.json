@@ -1,22 +1,22 @@
 {
-    "version": "1.1.0.dev-nightly.20210124",
+    "version": "1.1.0.dev-nightly.20210125",
     "description": "Nightly dev releases of xournalpp, a handwriting notetaking software with PDF annotation support",
     "homepage": "https://github.com/xournalpp/xournalpp",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-1.1.0.dev-nightly.20210124-windows.zip",
-            "hash": "f4c17e88766131cab87aa07749ff112637e26bb8a27091c8a67de29834c55a79"
+            "url": "https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-1.1.0.dev-nightly.20210125-windows.zip",
+            "hash": "e496a80a31f56fa151f34166f0db2414c935270f9fc8d67154d01def08411788"
         }
     },
     "pre_install": [
         "Expand-7zipArchive \"$dir\\xournalpp-$version-windows.exe\" -Removal",
         "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse"
     ],
-    "bin": [ [ "xournalpp-1.1.0+dev-nightly.20210124-windows.exe", "xournalpp-nightly" ] ],
+    "bin": [ [ "xournalpp-1.1.0+dev-nightly.20210125-windows.exe", "xournalpp-nightly" ] ],
     "shortcuts": [
         [
-            "xournalpp-1.1.0+dev-nightly.20210124-windows.exe",
+            "xournalpp-1.1.0+dev-nightly.20210125-windows.exe",
             "Xournal++ Nightly"
         ]
     ],
