@@ -1,8 +1,9 @@
+[![git repo](https://img.shields.io/badge/repo-git-informational)](https://github.com/earnestma/scoop-earne)
+[![git mirror](https://img.shields.io/badge/mirror-git-lightgrey)](https://git.earne.link/earnestma/scoop-earne)
+
 <div align="center">
 
 # earnest's personal scoop bucket
-
-<!--[Quick](#links) ⦾ [when expanding](#readme)-->
 
 ![GitHub last commit to main](https://img.shields.io/github/last-commit/earnestma/scoop-earne/main?style=flat-square)
 ![AppVeyor Build Status](https://img.shields.io/appveyor/build/earnestma/scoop-earne/main?style=flat-square)
@@ -10,7 +11,6 @@
 ![GitHub issues](https://img.shields.io/github/issues/earnestma/scoop-earne?style=flat-square)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/earnestma/scoop-earne?style=flat-square)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/earnestma/scoop-earne?style=flat-square)
-
 
 ### Add this bucket:
 
