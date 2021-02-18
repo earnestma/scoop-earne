@@ -1,13 +1,13 @@
 {
-    "version": "0.57.1-38-g4b18018e",
+    "version": "0.57.1-42-g55e146b1",
     "description": "Nightly builds for Extraterm",
     "homepage": "https://extraterm.org",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://storage.googleapis.com/extraterm_builds/2021-02-14%2005:01:47/extraterm-0.57.1-38-g4b18018e-win32-x64.zip",
-            "hash": "7f8ada7c7b30c577d760eadfa238e9023bc298fdef1f698d383625c820891dac",
-            "extract_dir": "extraterm-0.57.1-38-g4b18018e-win32-x64"
+            "url": "https://storage.googleapis.com/extraterm_builds/2021-02-18%2005:03:42/extraterm-0.57.1-42-g55e146b1-win32-x64.zip",
+            "hash": "492777d5d545844275738ee0f54c47c141ffca153b4cd1a42bc253c06922ccdd",
+            "extract_dir": "extraterm-0.57.1-42-g55e146b1-win32-x64"
         }
     },
     "bin": [
