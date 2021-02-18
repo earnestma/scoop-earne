@@ -1,6 +1,6 @@
 {
     "version": "0.57.1-38-g4b18018e",
-    "description": "Nightly builds for the swiss army chainsaw of terminal emulators",
+    "description": "Nightly builds for Extraterm",
     "homepage": "https://extraterm.org",
     "license": "MIT",
     "architecture": {

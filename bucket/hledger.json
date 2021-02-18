@@ -1,6 +1,6 @@
 {
     "version": "1.20.4",
-    "description": "Easy-to-use command-line/curses/web plaintext accounting tool; a modern and largely compatible Haskell rewrite of Ledger",
+    "description": "Easy-to-use plaintext accounting tool",
     "homepage": "http://hledger.org/",
     "license": "GPL-3.0",
     "url": "https://github.com/simonmichael/hledger/releases/download/1.20.4/hledger-windows.zip",

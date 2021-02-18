@@ -1,6 +1,6 @@
 {
     "version": "3.2.1",
-    "description": "A powerful, double-entry command-line accounting system. Automated windows builds from FullofQuarks",
+    "description": "A double-entry command-line accounting system, automated windows builds from FullofQuarks",
     "homepage": "https://github.com/FullofQuarks/Windows-Ledger-Binaries",
     "license": "BSD-3-Clause",
     "url": "https://github.com/FullofQuarks/Windows-Ledger-Binaries/releases/download/v3.2.1/ledger.exe",
