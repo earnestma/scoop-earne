@@ -1,5 +1,5 @@
 [![git repo](https://img.shields.io/badge/repo-git-informational)](https://github.com/earnestma/scoop-earne)
-[![git mirror](https://img.shields.io/badge/mirror-git-lightgrey)](https://git.earne.link/earnestma/scoop-earne)
+[![git mirror](https://img.shields.io/badge/mirror-git-lightgrey)](https://gitea.earne.link/earnestma/scoop-earne)
 
 <div align="center">
 
