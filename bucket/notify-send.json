@@ -1,10 +1,10 @@
 {
-    "version": "3.0.1",
+    "version": "3.0.2",
     "description": "notify-send for Windows",
     "homepage": "https://github.com/vaskovsky/notify-send",
     "license": "LGPL-3.0-only",
-    "url": "https://github.com/vaskovsky/notify-send/releases/download/v3.0.1/notify-send.exe.3.0.1.zip",
-    "hash": "d0cd181185e9d872e739d1e4a2908ef40c20d07094ae185e3958050e08fc2494",
+    "url": "https://github.com/vaskovsky/notify-send/releases/download/v3.0.2/notify-send.exe.3.0.2.zip",
+    "hash": "2a42123a25472cca4e8c3ec7ab5f072dbe0fa41503675efd046db63facc59397",
     "bin": "notify-send.exe",
     "checkver": "github",
     "autoupdate": {
