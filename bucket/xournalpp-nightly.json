@@ -1,22 +1,22 @@
 {
-    "version": "1.1.0.dev-nightly.20210301",
+    "version": "1.1.0.dev-nightly.20210302",
     "description": "Nightly dev releases of Xournalpp",
     "homepage": "https://github.com/xournalpp/xournalpp",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-1.1.0.dev-nightly.20210301-windows.zip",
-            "hash": "a6f0828535f5344e879d38e3a63e389eadda4dc69772688fcf573d437a3d1f13"
+            "url": "https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-1.1.0.dev-nightly.20210302-windows.zip",
+            "hash": "37dce949312a26e9de527d3e195f6707755c301c00be44a687652234af034f55"
         }
     },
     "pre_install": [
         "Expand-7zipArchive \"$dir\\xournalpp-$version-windows.exe\" -Removal",
         "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse"
     ],
-    "bin": [ [ "xournalpp-1.1.0+dev-nightly.20210301-windows.exe", "xournalpp-nightly" ] ],
+    "bin": [ [ "xournalpp-1.1.0+dev-nightly.20210302-windows.exe", "xournalpp-nightly" ] ],
     "shortcuts": [
         [
-            "xournalpp-1.1.0+dev-nightly.20210301-windows.exe",
+            "xournalpp-1.1.0+dev-nightly.20210302-windows.exe",
             "Xournal++ Nightly"
         ]
     ],
