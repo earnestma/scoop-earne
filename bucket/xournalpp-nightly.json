@@ -1,12 +1,12 @@
 {
-    "version": "20210315",
+    "version": "20210316",
     "description": "Nightly dev releases of Xournalpp",
     "homepage": "https://github.com/xournalpp/xournalpp",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-1.1.0.dev-nightly.20210315-windows.zip",
-            "hash": "5f4391f9a7671e2e0e4d52c945b43d8b5377ba0cbbf18920cf2b4c1d7a177a8f"
+            "url": "https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-1.1.0.dev-nightly.20210316-windows.zip",
+            "hash": "8c5e497c868e8be394228896a9ffbf747fee39aae3605e6c2d5f82794d757f2c"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\\*.exe\" | ForEach-Object -Process { Expand-7zipArchive $_ -Removal }",
