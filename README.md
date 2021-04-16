@@ -31,7 +31,6 @@
 | ---                                   | ---      | ---    |
 | [Alacritty (Release Candidates)](https://github.com/alacritty/alacritty) *alacritty-rc* | Apache-2.0 | |
 | [Emacs](https://www.gnu.org/software/emacs/) *emacs-stable*    | GPL-3.0-or-later | |
-| [Emacs personal native-comp builds](https://github.com/earnestma/emacs-win10-builds-native-comp) | GPL-3.0-or-later | |
 | Emacs development snapshots *emacs-snaphot*   | GPL-3.0-or-later | |
 | [Extraterm (Nightly)](https://github.com/sedwards2009/extraterm) *extraterm-nightly* | MIT | |
 | [hledger](https://hledger.org/) *hledger*     | GPL-3.0    |        |
