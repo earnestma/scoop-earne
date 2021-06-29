@@ -3,6 +3,8 @@
 
 <div align="center">
 
+**I do not use Windows anymore, so this bucket is likely out of date. If you would like to take over please file a new issue or email me.**
+
 # earnest's personal scoop bucket
 
 ![GitHub last commit to main](https://img.shields.io/github/last-commit/earnestma/scoop-earne/main?style=flat-square)
